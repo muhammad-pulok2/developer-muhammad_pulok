@@ -224,7 +224,10 @@ footer {
   margin-bottom: 25px;
 }
 
-.contract, input[type="text"], input[type="email"], textarea {
+.contract,
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
   border: none;
   margin-bottom: 20px;
@@ -233,7 +236,11 @@ footer {
 footer .rights {
   text-align: center;
 }
-
-input[:placeholder-shown] {
-  color: #757575;
+.connect p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
 }
